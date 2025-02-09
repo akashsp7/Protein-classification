@@ -58,7 +58,7 @@ cd protein-localization-predictor
 
 2. Install the required packages:
 ```bash
-pip install torch transformers pandas scikit-learn tqdm
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -91,7 +91,7 @@ python evaluate.py
 To make predictions on random test samples:
 
 ```bash
-python random_predictions.py --num_predictions 10
+python random_predictions.py --num_predictions <number of predictions you want to make>
 ```
 
 ## Model Architecture
