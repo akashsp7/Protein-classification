@@ -29,11 +29,14 @@ The model can predict the following 12 subcellular locations:
 ## Project Structure
 
 ```
-├── config.py           # Configuration settings and paths
-├── evaluate.py         # Model evaluation script
-├── random_predictions.py # Script for making random predictions
-├── scripts.py          # Core functionality and helper classes
-└── train.py           # Model training script
+├── config.py              # Configuration settings and paths
+├── evaluate.py            # Model evaluation script
+├── random_predictions.py  # Script for making random predictions
+├── scripts.py             # Core functionality and helper classes
+├── train.py               # Model training script
+├── datasets               # Folder to save train/test dataset (torch datasets)
+├── Model                  # The fine-tuned model is saved here
+└── protein_folding.csv    # Our data in csv format
 ```
 
 ## Requirements
