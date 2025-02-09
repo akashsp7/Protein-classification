@@ -38,6 +38,39 @@ The model can predict the following 12 subcellular locations:
 ├── Model                  # The fine-tuned model is saved here
 └── protein_folding.csv    # Our data in csv format
 ```
+# Random Predictions
+
+Here are some example predictions from the model showing its ability to predict protein subcellular locations from sequences:
+
+## Example 1: Nuclear Protein
+**Entry ID:** Q02363  
+**Sequence (truncated):** `MKAFSPVRSVRKNSLSDHSLGISRSKTPVDDPMSLLYNMNDCYSKLKELV...`
+
+### Results:
+- **True Location:** Nucleus
+- **Predicted Location:** Nucleus
+- **Confidence:** 100.00%
+
+**Top 3 Predictions:**
+1. Nucleus (100.00%)
+2. Endoplasmic reticulum (0.00%)
+3. Cell projection (0.00%)
+
+## Example 2: Membrane Protein
+**Entry ID:** Q8NGE3  
+**Sequence (truncated):** `MAGENHTTLPEFLLLGFSDLKALQGPLFWVVLLVYLVTLLGNSLIILLTQ...`
+
+### Results:
+- **True Location:** Cell membrane
+- **Predicted Location:** Cell membrane
+- **Confidence:** 100.00%
+
+**Top 3 Predictions:**
+1. Cell membrane (100.00%)
+2. Vesicular (0.00%)
+3. Cell projection (0.00%)
+
+These examples demonstrate the model's high confidence in correctly predicting protein subcellular locations based on amino acid sequences.
 
 ## Requirements
 
