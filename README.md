@@ -58,19 +58,6 @@ Here are some example predictions from the model showing its ability to predict 
 2. Endoplasmic reticulum (0.00%)
 3. Cell projection (0.00%)
 
-
-Entry: P52907
-Sequence: MADFDDRVSDEEKVRIAAKFITHAPPGEFNEVFNDVRLLLNNDNLLREGA...
-
-True Label: Cytoplasm
-Predicted Label: Endoplasmic reticulum
-Confidence: 90.19%
-
-Top 3 Predictions:
-Endoplasmic reticulum: 90.19%
-Cytoplasm: 5.67%
-Nucleus: 3.39%
-
 ## Example 2 (Incorrect): Cytoplasm
 **Entry ID:** P52907  
 **Sequence (truncated):** `MADFDDRVSDEEKVRIAAKFITHAPPGEFNEVFNDVRLLLNNDNLLREGA...`
