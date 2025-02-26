@@ -2,6 +2,8 @@
 
 A deep learning model for predicting protein subcellular localization using the ESM2 language model. This project aims to classify proteins into 12 different subcellular locations based on their amino acid sequences.
 
+*Note*: The training process has a fault in the uploaded files, where the test set iteself, is also used for validation. The numbers presented in the documentation are after fixing that fault.
+
 ## Overview
 
 The model leverages the power of Meta AI's ESM2 (Evolutionary Scale Modeling) transformer model, specifically the ESM2-3B-UR50D variant, to understand protein sequences and predict their subcellular locations. The model achieves impressive performance with:
